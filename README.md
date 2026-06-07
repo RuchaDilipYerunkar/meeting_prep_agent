@@ -1,27 +1,27 @@
-# MeetMind — AI Meeting Prep Agent 🧠
+# MeetMind — AI Meeting Prep Agent 
 
 An AI agent that remembers all your past meetings and generates a smart briefing before your next call. Powered by persistent memory and large language models, MeetMind acts as your expert meeting prep assistant.
 
-## 🚀 What It Does
+## What It Does
 * **Persistent Memory:** Stores notes from past conversations into persistent memory, keeping track of facts, promises, and concerns.
 * **Smart Recall:** Before any meeting, the agent recalls all semantic and temporal history with that specific contact.
 * **Sharp Briefing:** Instantly generates a structured briefing document detailing the contact's background, key topics discussed, unresolved concerns, missed follow-ups, and talking points.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Backend & Scripting:** Python
 * **Web Framework:** Flask
 * **Memory Layer:** Hindsight (by Vectorize)
 * **LLM Provider:** Groq (LLaMA 3)
 * **Frontend UI:** HTML, CSS, and Vanilla JavaScript
 
-## 📂 Project Structure
+## Project Structure
 * `mock_data.py`: Feeds fake past meeting transcripts into the memory bank.
 * `app.py`: The main command-line interface (CLI) version of the agent.
 * `server.py`: The Flask web server that handles API requests and serves the frontend.
 * `index.html`: The clean, professional web user interface.
 * `.env`: Configuration file for securely storing your API keys.
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 **1. Set up your environment**
 ```bash
@@ -42,7 +42,7 @@ HINDSIGHT_API_KEY=your_hindsight_api_key_here
 HINDSIGHT_MEMORY_BANK=meeting-prep
 ```
 
-## 💻 How to Run
+## How to Run
 
 **Step 1: Ingest Mock Data**
 ```bash
